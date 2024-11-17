@@ -2,7 +2,7 @@ import { MdEmail, MdLock, MdPerson } from 'react-icons/md';
 
 import { Button } from "../../components/Button";
 import { Header } from "../../components/Header";
-import { Column, Container, FacaLoginText, JaTenhoContaText, Row, SubtitleCadastro, Title, TitleCadastro, Wrapper } from "./styles";
+import { Column, Container, FacaLoginText, JaTenhoContaText, Row, SubtitleCadastro, Title, TitleCadastro, Wrapper, RowJaTemConta } from "./styles";
 
 import { Input } from "../../components/Input";
 import { useNavigate } from 'react-router-dom';
@@ -66,9 +66,12 @@ const Cadastro = () => {
                         <Button title="Criar minha Conta" type="submit" variant="secondary" />
                     </form>
                     <Row>
+                        <SubtitleCadastro>Ao clicar em "Criar minha conta grátis", declaro que aceito as Políticas de Privacidade e os Termos de Uso da DIO.</SubtitleCadastro>
+                    </Row>
+                    <RowJaTemConta>
                         <JaTenhoContaText>Já tenho conta.</JaTenhoContaText>
                         <FacaLoginText>&nbsp;Fazer login</FacaLoginText>
-                    </Row>
+                    </RowJaTemConta>
                 </Wrapper>
             </Column>
         </Container>

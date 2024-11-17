@@ -13,7 +13,7 @@ export const Container = styled.main`
 `
 
 export const Wrapper = styled.div`
-    max-width: 300px;
+    max-width: 350px;
 `
 
 export const Column = styled.div`
@@ -72,4 +72,11 @@ export const JaTenhoContaText = styled.p`
     line-height: 19px;
 
     color: #FFFFFF;
+`
+export const RowJaTemConta = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1px;
 `
