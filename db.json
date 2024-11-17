@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Pablo",
+      "email": "pablo@email.com",
+      "senha": "123456"
+    },
+    {
+      "id": "2",
+      "name": "José",
+      "email": "jose@email.com",
+      "senha": "123456"
+    },
+    {
+      "id": "3",
+      "name": "Axel",
+      "email": "axel@email.com",
+      "senha": "123456"
+    },
+    {
+      "id": "ff74",
+      "email": "teste@email.com",
+      "senha": "123456",
+      "name": "Teste Completo"
+    },
+    {
+      "id": "5bd9",
+      "email": "teste2@email.com",
+      "senha": "654321",
+      "name": "Teste Novo Completo"
+    },
+    {
+      "id": "061b",
+      "email": "Teste3@email.com",
+      "senha": "456123",
+      "name": "Teste Novo Completo 3"
+    }
+  ]
+}
